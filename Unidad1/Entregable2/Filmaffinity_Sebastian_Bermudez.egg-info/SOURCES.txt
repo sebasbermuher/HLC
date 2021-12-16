@@ -1,0 +1,7 @@
+setup.py
+Filmaffinity_Sebastian_Bermudez/__init__.py
+Filmaffinity_Sebastian_Bermudez/filmaffinity.py
+Filmaffinity_Sebastian_Bermudez.egg-info/PKG-INFO
+Filmaffinity_Sebastian_Bermudez.egg-info/SOURCES.txt
+Filmaffinity_Sebastian_Bermudez.egg-info/dependency_links.txt
+Filmaffinity_Sebastian_Bermudez.egg-info/top_level.txt
