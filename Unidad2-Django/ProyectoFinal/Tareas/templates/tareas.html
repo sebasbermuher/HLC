@@ -247,7 +247,6 @@
 
       #submit {
         width: 502px;
-
         padding: 0;
         margin: -5px 0px 0px 0px;
 
@@ -268,7 +267,10 @@
     </style>
   </head>
   <body>
-    <header><h1>Datos Tarea FCT</h1></header>
+    <header>
+      {% include "header.html" %}
+      <h1>Datos Tarea FCT</h1>
+    </header>
 
     <form id="form" class="topBefore">
       <input id="name" type="date" placeholder="FECHA" />
@@ -282,4 +284,5 @@
       <input id="submit" type="submit" value="ENVIAR" />
     </form>
   </body>
+  <footer>{% include "footer.html" %}</footer>
 </html>
