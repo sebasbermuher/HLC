@@ -1,0 +1,13 @@
+<h1>Contáctanos</h1>
+
+{% if form.errors %}
+<p style="color: red">Por favor revisa este campo</p>
+{% endif %}
+
+<form action="/api_contacto/" method="post">
+  {% csrf_token %}
+  <table>
+    {{ form.as_table }}
+  </table>
+  <input type="submit" value="Enviar" />
+</form>
